@@ -11,6 +11,10 @@
 	  "cfg" :  "commonMainApi",
 	  "path" : ":k:lang"
 	},
+
+
+
+
 	{
 	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
 	  "cfg" :  "commonMainApi",
@@ -20,6 +24,21 @@
 	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
 	  "cfg" :  "commonMainApi",
 	  "key" :  "kotlin-test-junit"
+	},
+	{
+	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
+	  "cfg" :  "commonMainApi",
+	  "key" :  "jupiter"
+	},
+	{
+	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
+	  "cfg" :  "commonMainApi",
+	  "key" :  "annotations"
+	},
+	{
+	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
+	  "cfg" :  "commonTestRuntimeOnly",
+	  "key" :  "jupiter-engine"
 	}
   ]
 }
