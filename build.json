@@ -1,5 +1,5 @@
 {
-  "type" :         "matt.mstruct.bj.NO_NATIVEModule",
+  "type" :         "matt.mstruct.bj.JVM_ONLYModule",
   "dependencies" : [
 	{
 	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
@@ -19,7 +19,22 @@
 	{
 	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
 	  "cfg" :  "commonMainApi",
+	  "key" :  "kotlin-test-junit"
+	},
+	{
+	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
+	  "cfg" :  "commonMainApi",
+	  "key" :  "jupiter"
+	},
+	{
+	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
+	  "cfg" :  "commonMainApi",
 	  "key" :  "annotations"
+	},
+	{
+	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
+	  "cfg" :  "commonTestRuntimeOnly",
+	  "key" :  "jupiter-engine"
 	}
   ]
 }
