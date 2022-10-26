@@ -1,5 +1,7 @@
 {
-  "type" :         "matt.mstruct.bj.MultiPlatformModule", "jvm": {},
+  "type" :         "matt.mstruct.bj.MultiPlatformModule",
+  "jvm" :          {},
+  "js" :           "LIB",
   "dependencies" : [
 	{
 	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
@@ -18,12 +20,17 @@
 	},
 	{
 	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
-	  "cfg" :  "commonMainApi",
+	  "cfg" :  "jsMainApi",
+	  "key" :  "kotlin-test-js"
+	},
+	{
+	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
+	  "cfg" :  "jvmMainApi",
 	  "key" :  "kotlin-test-junit"
 	},
 	{
 	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
-	  "cfg" :  "commonMainApi",
+	  "cfg" :  "jvmMainApi",
 	  "key" :  "jupiter"
 	},
 	{
@@ -33,7 +40,7 @@
 	},
 	{
 	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
-	  "cfg" :  "commonTestRuntimeOnly",
+	  "cfg" :  "jvmTestRuntimeOnly",
 	  "key" :  "jupiter-engine"
 	}
   ]
