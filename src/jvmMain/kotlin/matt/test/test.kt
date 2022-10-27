@@ -1,10 +1,11 @@
+@file:JvmName("TestJvmKt")
+
 package matt.test
 
 import matt.lang.YesIUseLang
 import matt.lang.disabledButDefinitelyStillInByteCodeCode
 import org.junit.jupiter.api.extension.AfterTestExecutionCallback
 import kotlin.test.junit5.JUnit5Asserter
-
 
 
 fun yesIUseTestLibs() {
