@@ -11,7 +11,12 @@
 	{
 	  "type" : "matt.mstruct.bj.BuildJsonProjectDependency",
 	  "cfg" :  "commonMainApi",
-	  "path" : ":k:lang"
+	  "path" : ":k:service"
+	},
+	{
+	  "type" : "matt.mstruct.bj.BuildJsonProjectDependency",
+	  "cfg" :  "jvmMainImplementation",
+	  "path" : ":k:key"
 	},
 	{
 	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",
