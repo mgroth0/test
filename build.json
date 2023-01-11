@@ -16,7 +16,7 @@
 	{
 	  "type" : "matt.mstruct.bj.BuildJsonProjectDependency",
 	  "cfg" :  "jvmMainImplementation",
-	  "path" : ":k:key"
+	  "path" : ":k:test:prop"
 	},
 	{
 	  "type" : "matt.mstruct.bj.BuildJsonLibDependency",

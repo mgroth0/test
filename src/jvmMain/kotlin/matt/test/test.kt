@@ -2,11 +2,11 @@
 
 package matt.test
 
-import matt.key.DO_MANUAL_TESTS
 import matt.lang.YesIUseLang
 import matt.lang.disabledButDefinitelyStillInByteCodeCode
 import matt.model.data.dir.YesOrNo.NO
 import matt.service.action.ActionAbilitiesService
+import matt.test.prop.DO_MANUAL_TESTS
 import org.junit.jupiter.api.extension.AfterTestExecutionCallback
 import kotlin.test.DefaultAsserter
 import kotlin.test.fail
